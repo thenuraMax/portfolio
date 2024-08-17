@@ -9,22 +9,22 @@
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="assets/css/animated-headline.css">
     <link rel="stylesheet" href="assets/css/main.css">
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="icon" href="assets/icon/logo.png">
 
     <style>
         .primary-color {
-            background-image: linear-gradient(to right, rgb(0, 128, 0), white);
+            background-image: linear-gradient(to right, #0B5EBC, #A349A4 );
             background-clip: text;
             color: transparent;
         }
 
         .bcolor:hover {
-            color: rgb(0, 128, 0);
+            color:#0B5EBC;
+            cursor: pointer;
         }
 
         .dropbtn{
-            background-image: linear-gradient(to right, rgb(0, 128, 0), white);
+            background-image: linear-gradient(to right, #0B5EBC, #A349A4);
             background-clip: text;
             color: transparent;
         }
@@ -33,7 +33,7 @@
             color: white;
         }
         .nav-link:hover {
-            background-image: linear-gradient(to right, rgb(0, 128, 0), white);
+            background-image: linear-gradient(to right, #0B5EBC, #A349A4);
             transform: scale(1.100);
             background-clip: text;
             color: transparent;
@@ -61,11 +61,13 @@
 
         </div>
     </div>
+
     <div class="col-12 bg-black">
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid"><a class="navbar-brand" href=""><p class="primary-color"><img src="assets/icon/logo.png" class="me-2" width="50px" alt="">C.M.P.T.MANDINU</p></a>          
-                <button onclick="myFunction()" class="dropbtn navbar-toggler">
-                <i class="bi bi-justify"></i>                
+                <button onclick="myFunction()" class="dropbtn bg-body navbar-toggler">
+                    <i class="bi bi-justify"></i>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
                 </button>
                 <div class="navbar-collapse justify-content-end d-none dropdown4" id="myDropdown">
                     <ul class="navbar-nav">
@@ -83,24 +85,24 @@
     
 
     <div class="col-12 vh-100" id="particles-js">
-        <div class="col-12 vh-100 position-absolute" id="home" style="overflow: hidden;">
+        <div class="col-12 vh-100 position-absolute" id="home" >
             <div class="row">
                 <div class="col-12 text-capitalize text-light d-flex justify-content-center vh-100 ">
                     <div class="row align-items-center">
                         <div class="ps-sm-3 ms-3 col-12 col-lg-7">
-                            <h3 class="primary-color">Hi There,</h3>
+                            <h3 class="fw_600 primary-color">Hi There,</h3>
                             <h1 class="cd-headline clip" style="font-size:30px;">
                                 <span class="fw_600 primary-color">I Am</span>
                                 <span class="cd-words-wrapper">
-                                    <b class="is-visible">THENURA MANDINU</b>
-                                    <b class="">Web Designer</b>
-                                    <b class="">Web Developer</b>
+                                    <b class="is-visible primary-color" style="width: max-content;">THENURA MANDINU</b>
+                                    <b class=" primary-color">Web Designer</b>
+                                    <b class=" primary-color">Web Developer</b>
                                 </span>
                             </h1>
-                            <p class="col-12 pe-sm-0 pe-4" style="font-size: medium;">I'm a Web Developer with extensive
+                            <p class="col-12 pe-sm-0 pe-4" style="font-size: medium; color:transparent;">I'm a Web Developer with extensive
                                 experience for 2 years. My expertise is to create and Websites
                                 design, graphic design and many more...</p>
-                            <a download="C.M.P. THENURA MANDINU CV" href="doc/Blue Yellow Modern Creative Director Resume.pdf" class="btn btn-info">Download CV</a>
+                            <a download="C.M.P. THENURA MANDINU CV" href="doc/Blue Yellow Modern Creative Director Resume.pdf" class="btn" style="background-color: #0B5EBC;">Download CV</a>
                         </div>
                         <div class="col-12 col-lg-4 text-center p5-5"><img src="assets/img/13.png" width="500px" /></div>
                     </div>
